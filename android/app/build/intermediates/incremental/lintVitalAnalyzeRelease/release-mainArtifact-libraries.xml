@@ -26,10 +26,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/estep/Desktop/PerDiem/android@@:react-native-async-storage_async-storage::release"
-      jars="/Users/estep/Desktop/PerDiem/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/23eb6d746487357bcdb5f6800fd08caf/transformed/out/jars/classes.jar:/Users/estep/Desktop/PerDiem/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/23eb6d746487357bcdb5f6800fd08caf/transformed/out/jars/libs/R.jar"
+      name="/Users/estep/Documents/GitHub/PerDiem/android@@:react-native-async-storage_async-storage::release"
+      jars="/Users/estep/Documents/GitHub/PerDiem/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/6e9dae5fcfd79ac6796c438611e610c1/transformed/out/jars/classes.jar:/Users/estep/Documents/GitHub/PerDiem/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/6e9dae5fcfd79ac6796c438611e610c1/transformed/out/jars/libs/R.jar"
       resolved="PerDiem:react-native-async-storage_async-storage:unspecified"
-      folder="/Users/estep/Desktop/PerDiem/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/23eb6d746487357bcdb5f6800fd08caf/transformed/out"
+      folder="/Users/estep/Documents/GitHub/PerDiem/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/6e9dae5fcfd79ac6796c438611e610c1/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -39,10 +39,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/estep/Desktop/PerDiem/android@@:react-native-safe-area-context::release"
-      jars="/Users/estep/Desktop/PerDiem/node_modules/react-native-safe-area-context/android/build/.transforms/611c83939b4ddf70dc31b5d55470d096/transformed/out/jars/classes.jar:/Users/estep/Desktop/PerDiem/node_modules/react-native-safe-area-context/android/build/.transforms/611c83939b4ddf70dc31b5d55470d096/transformed/out/jars/libs/R.jar"
+      name="/Users/estep/Documents/GitHub/PerDiem/android@@:react-native-safe-area-context::release"
+      jars="/Users/estep/Documents/GitHub/PerDiem/node_modules/react-native-safe-area-context/android/build/.transforms/72ef742c51c595b63bed92009e8f2b22/transformed/out/jars/classes.jar:/Users/estep/Documents/GitHub/PerDiem/node_modules/react-native-safe-area-context/android/build/.transforms/72ef742c51c595b63bed92009e8f2b22/transformed/out/jars/libs/R.jar"
       resolved="PerDiem:react-native-safe-area-context:unspecified"
-      folder="/Users/estep/Desktop/PerDiem/node_modules/react-native-safe-area-context/android/build/.transforms/611c83939b4ddf70dc31b5d55470d096/transformed/out"
+      folder="/Users/estep/Documents/GitHub/PerDiem/node_modules/react-native-safe-area-context/android/build/.transforms/72ef742c51c595b63bed92009e8f2b22/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -52,10 +52,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/estep/Desktop/PerDiem/android@@:react-native-screens::release"
-      jars="/Users/estep/Desktop/PerDiem/node_modules/react-native-screens/android/build/.transforms/314987f3a4d594c8392271ded1aa5b20/transformed/out/jars/classes.jar:/Users/estep/Desktop/PerDiem/node_modules/react-native-screens/android/build/.transforms/314987f3a4d594c8392271ded1aa5b20/transformed/out/jars/libs/R.jar"
+      name="/Users/estep/Documents/GitHub/PerDiem/android@@:react-native-screens::release"
+      jars="/Users/estep/Documents/GitHub/PerDiem/node_modules/react-native-screens/android/build/.transforms/a276d707d24d20f6b67f4673a7519c7d/transformed/out/jars/classes.jar:/Users/estep/Documents/GitHub/PerDiem/node_modules/react-native-screens/android/build/.transforms/a276d707d24d20f6b67f4673a7519c7d/transformed/out/jars/libs/R.jar"
       resolved="PerDiem:react-native-screens:unspecified"
-      folder="/Users/estep/Desktop/PerDiem/node_modules/react-native-screens/android/build/.transforms/314987f3a4d594c8392271ded1aa5b20/transformed/out"
+      folder="/Users/estep/Documents/GitHub/PerDiem/node_modules/react-native-screens/android/build/.transforms/a276d707d24d20f6b67f4673a7519c7d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -65,10 +65,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/estep/Desktop/PerDiem/android@@:react-native-vector-icons::release"
-      jars="/Users/estep/Desktop/PerDiem/node_modules/react-native-vector-icons/android/build/.transforms/9bc6a4c4a4bff69cbe07f554fbe7a552/transformed/out/jars/classes.jar:/Users/estep/Desktop/PerDiem/node_modules/react-native-vector-icons/android/build/.transforms/9bc6a4c4a4bff69cbe07f554fbe7a552/transformed/out/jars/libs/R.jar"
+      name="/Users/estep/Documents/GitHub/PerDiem/android@@:react-native-vector-icons::release"
+      jars="/Users/estep/Documents/GitHub/PerDiem/node_modules/react-native-vector-icons/android/build/.transforms/a71849347c2904a497e6e1a84d6f17aa/transformed/out/jars/classes.jar:/Users/estep/Documents/GitHub/PerDiem/node_modules/react-native-vector-icons/android/build/.transforms/a71849347c2904a497e6e1a84d6f17aa/transformed/out/jars/libs/R.jar"
       resolved="PerDiem:react-native-vector-icons:unspecified"
-      folder="/Users/estep/Desktop/PerDiem/node_modules/react-native-vector-icons/android/build/.transforms/9bc6a4c4a4bff69cbe07f554fbe7a552/transformed/out"
+      folder="/Users/estep/Documents/GitHub/PerDiem/node_modules/react-native-vector-icons/android/build/.transforms/a71849347c2904a497e6e1a84d6f17aa/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

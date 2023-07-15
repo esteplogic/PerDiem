@@ -1,4 +1,4 @@
-#Fri Jul 14 18:35:27 IST 2023
-base.0=/Users/estep/Desktop/PerDiem/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+#Sat Jul 15 15:47:30 IST 2023
+base.0=/Users/estep/Documents/GitHub/PerDiem/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

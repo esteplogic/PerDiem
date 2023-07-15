@@ -3348,6 +3348,23 @@
             "outputFile": "com.perdiem.app-merged_res-29:/values_values.arsc.flat",
             "map": [
                 {
+                    "source": "/Users/estep/Documents/GitHub/PerDiem/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "44",
+                        "endOffsets": "56"
+                    },
+                    "to": {
+                        "startLines": "692",
+                        "startColumns": "4",
+                        "startOffsets": "44199",
+                        "endColumns": "44",
+                        "endOffsets": "44239"
+                    }
+                },
+                {
                     "source": "/Users/estep/.gradle/caches/transforms-3/378d88de2fde0e29d92543d12e33b34a/transformed/jetified-viewpager2-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -3424,22 +3441,20 @@
                     }
                 },
                 {
-                    "source": "/Users/estep/Desktop/PerDiem/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/estep/Documents/GitHub/PerDiem/android/app/build/generated/res/resValues/release/values/gradleResValues.xml",
                     "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "267"
+                        "startLines": "6,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "154,258",
+                        "endColumns": "63,68",
+                        "endOffsets": "213,322"
                     },
                     "to": {
-                        "startLines": "822",
-                        "startColumns": "4",
-                        "startOffsets": "59721",
-                        "endLines": "825",
-                        "endColumns": "12",
-                        "endOffsets": "59899"
+                        "startLines": "655,656",
+                        "startColumns": "4,4",
+                        "startOffsets": "41597,41661",
+                        "endColumns": "63,68",
+                        "endOffsets": "41656,41725"
                     }
                 },
                 {
@@ -3457,6 +3472,25 @@
                         "startOffsets": "40200",
                         "endColumns": "42",
                         "endOffsets": "40238"
+                    }
+                },
+                {
+                    "source": "/Users/estep/Documents/GitHub/PerDiem/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "267"
+                    },
+                    "to": {
+                        "startLines": "822",
+                        "startColumns": "4",
+                        "startOffsets": "59721",
+                        "endLines": "825",
+                        "endColumns": "12",
+                        "endOffsets": "59899"
                     }
                 },
                 {
@@ -3677,40 +3711,6 @@
                         "startOffsets": "40243",
                         "endColumns": "53",
                         "endOffsets": "40292"
-                    }
-                },
-                {
-                    "source": "/Users/estep/Desktop/PerDiem/android/app/build/generated/res/resValues/release/values/gradleResValues.xml",
-                    "from": {
-                        "startLines": "6,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "154,258",
-                        "endColumns": "63,68",
-                        "endOffsets": "213,322"
-                    },
-                    "to": {
-                        "startLines": "655,656",
-                        "startColumns": "4,4",
-                        "startOffsets": "41597,41661",
-                        "endColumns": "63,68",
-                        "endOffsets": "41656,41725"
-                    }
-                },
-                {
-                    "source": "/Users/estep/Desktop/PerDiem/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "44",
-                        "endOffsets": "56"
-                    },
-                    "to": {
-                        "startLines": "692",
-                        "startColumns": "4",
-                        "startOffsets": "44199",
-                        "endColumns": "44",
-                        "endOffsets": "44239"
                     }
                 }
             ]

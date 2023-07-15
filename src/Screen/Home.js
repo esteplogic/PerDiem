@@ -13,13 +13,10 @@ function Home(props) {
     let width = Dimensions.get('screen').width
 
     const LogOut = async () => {
-        let get = await AsyncStorage.removeItem('loggedIn');
-        if (!get) {
+        await AsyncStorage.removeItem('loggedIn').then(()=>{
             setAuth(false)
-            console.log('logout', get)
-        } else {
-            console.error(error, 'have and error ')
-        }
+            console.log("logout success")
+        })
     }
 
 
@@ -41,6 +38,7 @@ function Home(props) {
             fetch('https://jsonplaceholder.typicode.com/posts')
                 .then((resp) => resp.json())
                 .then((json) => setData(json))
+                
                 .catch((error) => console.error(error))
                 .finally(() => setLoading(false));
         }, 2000)
@@ -50,7 +48,7 @@ function Home(props) {
     const ApiData2 = () => {
         setLoading(true)
         setTimeout(() => {
-            fetch('https://jsonplaceholder.typicode.com/posts')
+            fetch('https://jsonplaceholder.typicode.com/todos')
                 .then((resp) => resp.json())
                 .then((json) => setData(json))
                 .catch((error) => console.error(error))
@@ -89,7 +87,11 @@ function Home(props) {
                             <View key={index} style={{ flex: 1, padding: 7, borderWidth: 1, margin: 5, borderRadius: 10, borderColor: '#ccc' }}>
                                 <Text style={{ color: 'black' }}>#{item.id}</Text>
                                 <Text style={{ color: 'black', fontWeight: '600', marginTop: 3 }}>Tilte: <Text style={{ fontWeight: '400', fontSize: 13 }}>{item.title}</Text></Text>
-                                <Text style={{ color: 'black', fontWeight: '600', marginTop: 3 }}>Body: <Text style={{ fontWeight: '400', fontSize: 13 }}>{item.body}</Text></Text>
+                                {
+                                   item.body? <Text style={{ color: 'black', fontWeight: '600', marginTop: 3 }}>Body: <Text style={{ fontWeight: '400', fontSize: 13 }}>{item.body}</Text></Text>
+                                    :
+                                    <Text  style={{ color: 'black', fontWeight: '600', marginTop: 3 }}>Completed:{item.completed ? "Yes" : "No"}</Text>
+                                }
                             </View>
                         )}
                     />
@@ -98,7 +100,6 @@ function Home(props) {
                         <TouchableOpacity onPress={ApiData} style={{ backgroundColor: '#ccc', width: 100, borderRadius: 8, textAlign: 'center', paddingVertical: 8 }}>
                             <Text style={{ fontSize: 14, color: 'black', textAlign: 'center' }}> Fetch 1</Text>
                         </TouchableOpacity>
-
                         <TouchableOpacity onPress={ApiData2} style={{ backgroundColor: '#ccc', width: 100, borderRadius: 8, textAlign: 'center', paddingVertical: 8 }}>
                             <Text style={{ fontSize: 14, color: 'black', textAlign: 'center' }}> Fetch 2</Text>
                         </TouchableOpacity>
@@ -107,6 +108,6 @@ function Home(props) {
                     : <Text style={{ fontWeight: 400, color: 'black', fontSize: 22, textAlign: 'center', paddingTop: 60 }}> Welcome To Home</Text>
                 }
             </View>}
-        </View> )
+        </View>)
 }
 export default Home; 

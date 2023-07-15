@@ -36,11 +36,11 @@ export default function App() {
                 {!auth ?
                     <>
                         <Stack.Screen name='Perdiem' component={HomeScreen} />
-                        <Stack.Screen name='Register' component={Register} />
+                        <Stack.Screen name='Register' children={(props)=> <Register {...props} setAuth={setAuth}/>}  />
                     </>
                     :
                     <Stack.Screen name='Perdiem'
-                        children={() => <Home auth={auth} setAuth={setAuth}
+                        children={(props) => <Home {...props}  auth={auth} setAuth={setAuth}
                         />} />
                 }
             </Stack.Navigator>

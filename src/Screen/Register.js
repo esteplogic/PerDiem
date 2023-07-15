@@ -5,7 +5,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 
 
 
-function Register({ navigation }) {
+function Register(props) {
 
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState('')
@@ -13,8 +13,7 @@ function Register({ navigation }) {
     const [buttonDesiable, setButtonDisable] = useState(false)
     const [save, setSave] = useState([])
 
-
-
+    const {navigation , setAuth} = props;
 
     let inValid = true;
     const validate = async () => {
@@ -54,16 +53,16 @@ function Register({ navigation }) {
                         return
                     } else {
                         var newData = [...parsedData, { id: sec, email: email, password: password }]
-                        await AsyncStorage.setItem('register', JSON.stringify(newData));
-                        Alert.alert(' register done');
-                        navigation.navigate('Perdiem')
-                        setEmail('')
-                        setPassword(' ')
+                        let data = [{email , password , id:sec}]
+                        await AsyncStorage.setItem('register', JSON.stringify(newData))
+                        await AsyncStorage.setItem('loggedIn', JSON.stringify(data))
+                        setAuth(true)
                     }
                 }
             } else {
                 const data = [{ id: sec, email: email, password: password }]
                 await AsyncStorage.setItem('register', JSON.stringify(data))
+                await AsyncStorage.setItem('loggedIn', JSON.stringify(data))
                 Alert.alert(' Register SuccessFull');
                 navigation.navigate('Perdiem')
                 setEmail('')
