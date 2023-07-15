@@ -63,10 +63,7 @@ function Register(props) {
                 const data = [{ id: sec, email: email, password: password }]
                 await AsyncStorage.setItem('register', JSON.stringify(data))
                 await AsyncStorage.setItem('loggedIn', JSON.stringify(data))
-                Alert.alert(' Register SuccessFull');
-                navigation.navigate('Perdiem')
-                setEmail('')
-                setPassword('')
+                setAuth(true)
             }
         } else {
             Alert.alert('please fill input first ')
